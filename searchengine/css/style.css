@@ -1,0 +1,164 @@
+.search-fly {
+    width: 500px;
+	padding:0 0 20px 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.70);
+    margin-top: 0px;
+    background: #003b67;
+    border-radius: 15px;border: solid 2px #fff;
+}
+.traveltype{width: 100%;height: auto;padding: 20px 25px 10px 25px;margin: auto;}
+.form_sec {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 7px 7px 0 0;
+}
+.search-fly .form-group {
+    margin-right: 40px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+#FormControlSelect1 {
+    background-image: url(../images/flight-icon.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 4% 50%;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.adult {
+    width: auto;
+    padding: 10px;
+    background: #fff;
+    border: solid 1px #e1e1e1;
+    border-radius: 3px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+#FormControlSelect1 {
+    background-image: url(../images/flight-icon.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 4% 50%;
+    padding-left: 30px;text-transform:uppercase;
+}
+.NumberofTraveler {
+    width: 100% !important;
+    padding-left: 35px;
+    padding-right: 10px;
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    background-image: url(../images/traveller-icon.png), url(../images/traveller-arrow.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 1% 40%, right 7px center;
+    background-size: 26px, 12px;
+}
+#FormControlSelect2 {
+    background-image: url(../images/adult.html);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 4% 50%;
+    padding-left: 30px;
+}
+
+#FormControlSelect3 {
+    background-image: url(../images/seat.html);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 4% 50%;
+    padding-left: 30px;
+}
+
+select.form-control {width:100% !important;
+    font-size: 15px;
+    font-weight: 500;
+    height: 38px;
+    border: none;
+    background: #fff;	
+}
+
+.flight_shedule .form-control::placeholder {
+    color: rgb(54, 54, 54);
+}
+
+.flight_shedule input.form-control {
+    font-size: 15px;
+    font-weight: 500;
+    height: 48px;
+    border: none;
+}
+
+.flight-row{width:100%;height:auto;padding: 5px 15px 0px 15px; margin:auto;}
+.flight-row .searchcol-1{width:48%;height:auto;padding:0; margin:auto 1% 10px 1%; float:left;position:relative;}
+.flight-row .searchcol-2{width:30px;height:30px;padding:5px; margin:auto; background:#fff; text-align:center;position:absolute; z-index:1; top:2px;box-shadow: 0 0 7px #999; right:-20px;border-radius:25px;overflow:hidden;}
+.flight-row .searchcol-2 .search-reverse{width:100%;line-height:1px;}
+.flight-row .searchcol-2 img{width:20px; height:auto;}
+
+.flight-row .searchcol-3{width:48%;height:auto;padding:0; margin:auto 1% 10px 1%; float:left;border-right:solid 0px #e1e1e1;position:relative;}
+.flight-row .searchcol-4{width:48%;height:auto;padding:0; margin:auto 1% 10px 1%; float:left;position:relative;}
+.flight-row .searchcol-5{width:48%;height:auto;padding:0; margin:auto 1% 10px 1%; float:left;position:relative;}
+.flight-row .searchcol-6{width:100%;height:auto;padding:0; margin:auto; float:left;}
+.flight-row .sFromTbox{width:100%;height:auto;padding:8px 7px 8px 40px; margin:auto;background:#fff url(../images/take-flight.png) no-repeat 12px center; background-size:18px !important; border:none; border-radius:5px;background-position:10px !important;}
+.flight-row .sFromTboxFree{width:100%;height:auto;padding:8px 7px 8px 40px; margin:auto;background-size:18px !important; border:none; border-radius:5px;background-position:10px !important;}
+.flight-row .sToTbox{width:100%;height:auto;padding:8px 7px 8px 40px; margin:auto;background:#fff url(../images/land-flight.png) no-repeat 16px center; background-size:18px !important; border:none; border-radius:5px;background-position:14px !important;}
+.flight-row .sDepartDTbox{width:100%;height:auto;padding:8px 7px 8px 40px; margin:auto;background:#fff url(../images/calander-icon.png) no-repeat 7px center; background-size:30px !important; border:none; border-radius:5px;}
+.flight-row .sRerurnDTbox{width:100%;height:auto;padding:8px 7px 8px 40px; margin:auto;background:#fff url(../images/calander-icon.png) no-repeat 7px center; background-size:30px !important; border:none; border-radius:5px;}
+.flight-row .sf_button{width:100%;height:auto;padding:4px 7px; margin:auto;background:#f70503;color:#fff;border-radius:4px;font-size: 18px;font-weight:500;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.flight-row .sf_button:hover{background:#0061bb;color:#fff;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+
+.traveltype label{width:auto; height:auto;padding:5px 10px 3px 10px; margin:auto auto auto -22px; background:#fff;color:#777;font-size:17px; font-weight:700;display:inline-block;}
+.traveltype label:hover{background:#f60502;color:#fff;cursor:pointer;}
+.traveltype .checked{background:#f60502;color:#fff;}
+.home-banner{width:100%; height:auto;}
+.btn {padding: 5px 19px !important;transition: all 0.4s ease-in-out !important;background-color: #017fce !important;color: #fff !important;display: inline-block !important;font-weight: 400;transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;}
+
+.ntravellers {width: 90px;padding: 0 0 0 40px; margin: 0 5px;}
+.adult {width: auto;height: auto;padding: 10px;background: #fff;border: solid 1px #e1e1e1;border-radius: 3px;position: absolute;z-index: 999;}
+
+.fsrow{width:100%;margin:0px;background:#fff;}
+.fsrow:hover{width:100%;margin:0px;background:#fff !important;}
+.fs-col1:hover{background:#fff !important;}
+.fs-col2:hover{background:#fff !important;}
+.fs-col3:hover{background:#fff !important;}
+.fs-col3 span:hover{background:#fff !important;}
+.ui-menu .ui-menu-item-wrapper {background:#fff !important;}
+.fa-fw {margin:5px 0 0 0; font-size:25px !important;}
+.fa-fw:hover {background:#fff !important;}
+.select-airport:hover {background:#fff !important;}
+.ui-menu .ui-menu-item {font-size:15px !important;}
+.ui-menu .ui-menu-item :hover {background: #fff !important;}
+
+#country-list {margin-top: 45px;left: 0px;}
+#country-list1 {margin-top: 45px;left: 0px;}
+
+#country-list li {background: #fff;border-bottom: #e1e1e1 1px solid !important;}
+#country-list li:hover {background:#003b67;}
+
+#country-list1 li {background: #fff;border-bottom: #e1e1e1 1px solid !important;}
+#country-list1 li:hover {background:#003b67;}
+
+.dyn-main-phone .container {z-index:1 !important;}
+.video_panel{width:100%; height:auto; overflow:hidden;z-index:-5;}
+
+@media (min-width: 1000px) and (max-width: 1100px){
+.home-banner {width: 130%;height: auto;}
+}
+@media (min-width: 769px) and (max-width: 1000px){
+.home-banner {width: 180%;height: auto;}
+}
+@media (min-width: 481px) and (max-width: 769px){
+.home-banner {width: 210%;height: auto;}
+.ntravellers {width: 40px;padding: 0 0 0 15px;}	
+}
+@media (min-width: 400px) and (max-width: 481px){
+.home-banner {width: 260%;height: auto;}
+.ntravellers {width: 40px;padding: 0 0 0 15px;}
+.adult {width: 175px;}		
+}
+@media (min-width: 300px) and (max-width: 400px){
+.home-banner {width: 290%;height: auto;}
+.ntravellers {width: 40px;padding: 0 0 0 15px;}	
+.adult {width: 175px;}	
+}
